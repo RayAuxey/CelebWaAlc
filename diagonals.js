@@ -23,10 +23,11 @@ const changeDiagonals = (matrix) => {
   return newMatrix;
 };
 
-console.log(
-  changeDiagonals([
-    [1, 2, 3],
-    [4, 5, 6],
-    [7, 8, 9],
-  ])
-);
+const matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+];
+
+console.log("Input matrix:", matrix);
+console.log("Output matrix:", changeDiagonals(matrix));
